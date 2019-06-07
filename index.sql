@@ -8,3 +8,4 @@ CREATE TABLE people(
     birth DATE,
     PRIMARY KEY(id)
 );
+ALTER TABLE people ADD pass VARCHAR(32);
