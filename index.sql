@@ -1,3 +1,6 @@
 CREATE DATABASE shop;
 DROP DATABASE shop;
 CREATE DATABASE itproger;
+CREATE TABLE user(
+    id INT
+);
