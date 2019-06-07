@@ -1,1 +1,2 @@
 CREATE DATABASE shop;
+DROP DATABASE shop;
