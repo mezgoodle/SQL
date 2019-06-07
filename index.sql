@@ -9,3 +9,4 @@ CREATE TABLE people(
     PRIMARY KEY(id)
 );
 ALTER TABLE people ADD pass VARCHAR(32);
+ALTER TABLE people DROP COLUMN pass VARCHAR(32);
