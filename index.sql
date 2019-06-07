@@ -1,6 +1,10 @@
 CREATE DATABASE shop;
 DROP DATABASE shop;
 CREATE DATABASE itproger;
-CREATE TABLE user(
-    id INT
+CREATE TABLE people(
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(30),
+    bio TEXT,
+    birth DATE,
+    PRIMARY KEY(id)
 );
