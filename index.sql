@@ -10,3 +10,5 @@ CREATE TABLE people(
 );
 ALTER TABLE people ADD pass VARCHAR(32);
 ALTER TABLE people DROP COLUMN pass VARCHAR(32);
+
+INSERT INTO people () VALUES()
