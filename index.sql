@@ -21,4 +21,4 @@ INSERT INTO people (name, bio, birth)
 		('Bob2', 'ffff', '2020'),
 		('Bob34', 'ffff', '2020'),
 		('Bob3', 'ffff', '2020');
-UPDATE people SET `name` = 'Alexey' WHERE id = 5;		
+UPDATE people SET `name` = 'Alexey', `pass` = `asdada` WHERE id = 5;		
