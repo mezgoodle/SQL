@@ -35,3 +35,4 @@ INSERT INTO test (id, sometext, field)
 	(3, "dsf", "eaea"),
 	(4, "dsf", "eaea");
 DELETE FROM test WHERE id = 2;
+DELETE FROM test;
