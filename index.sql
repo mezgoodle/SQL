@@ -24,5 +24,7 @@ INSERT INTO people (name, bio, birth)
 UPDATE people SET `name` = 'Alexey', `pass` = `asdada` WHERE id = 5 AND bio = 'programmer';		
 CREATE TABLE test (
 	id NOT NULL,
-	
+	sometext TEXT,
+	field VARCHAR(36),
+	PRIMARY KEY(id)
 );
