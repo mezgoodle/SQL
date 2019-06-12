@@ -28,3 +28,9 @@ CREATE TABLE test (
 	field VARCHAR(36),
 	PRIMARY KEY(id)
 );
+INSERT INTO test (id, sometext, field)
+	VALUES
+	(1, "dsf", "eaea"),
+	(2, "dsf", "eaea"),
+	(3, "dsf", "eaea"),
+	(4, "dsf", "eaea");
