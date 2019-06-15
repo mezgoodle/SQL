@@ -41,4 +41,4 @@ TRUNCATE `test`;
 SELECT * FROM people;
 SELECT `name`, `bio` FROM people;
 SELECT `name`, `id` FROM `people` WHERE id >= 3 AND id < 5;
-SELECT * FROM people WHERE birth = 5 AND bio IS NULL;
+SELECT * FROM people WHERE birth = 5 OR bio IS NULL;
