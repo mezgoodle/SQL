@@ -38,4 +38,5 @@ DELETE FROM test WHERE id = 2;
 DELETE FROM test;
 TRUNCATE `test`;
 
-SELECT * FROM people
+SELECT * FROM people;
+SELECT `name`, 'bio' FROM people;
