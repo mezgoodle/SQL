@@ -37,3 +37,5 @@ INSERT INTO test (id, sometext, field)
 DELETE FROM test WHERE id = 2;
 DELETE FROM test;
 TRUNCATE `test`;
+
+SELECT * FROM people
