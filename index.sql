@@ -44,3 +44,4 @@ SELECT `name`, `id` FROM `people` WHERE id >= 3 AND id < 5;
 SELECT * FROM people WHERE birth = 5 OR bio IS NULL;
 SELECT DISTINCT `name` FROM people;
 SELECT * FROM people LIMIT 2;
+SELECT * FROM people ORDER BY id LIMIT 2, 3;
