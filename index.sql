@@ -48,4 +48,4 @@ SELECT * FROM people ORDER BY birth LIMIT 2, 3;
 SELECT * FROM people ORDER BY bio DESC LIMIT 2, 3;
 SELECT * FROM people WHERE id BETWEEN 2 AND 6;
 SELECT * FROM people WHERE id IN(4, 2, 5, 1);
-SELECT * FROM people WHERE name LIKE 'I$';
+SELECT * FROM people WHERE name LIKE 'I%';
