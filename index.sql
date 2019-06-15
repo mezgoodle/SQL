@@ -45,3 +45,4 @@ SELECT * FROM people WHERE birth = 5 OR bio IS NULL;
 SELECT DISTINCT `name` FROM people;
 SELECT * FROM people LIMIT 2;
 SELECT * FROM people ORDER BY birth LIMIT 2, 3;
+SELECT * FROM people ORDER BY bio DESC LIMIT 2, 3;
