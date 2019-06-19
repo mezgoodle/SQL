@@ -53,3 +53,10 @@ SELECT * FROM people WHERE name LIKE 'I%';
 CREATE INDEX NIndex ON people(name);
 SELECT `name` FROM people;
 DROP INDEX NIndex ON people;
+
+CREATE TABLE shop(
+	id INT NOT NULL AUTO_INCREMENT,
+	title VARCHAR(100),
+	price INT,
+	PRIMARY KEY(id)
+)
