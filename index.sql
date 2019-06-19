@@ -60,3 +60,12 @@ CREATE TABLE shop(
 	price INT,
 	PRIMARY KEY(id)
 )
+
+CREATE TABLE orders(
+	id INT NOT NULL AUTO_INCREMENT,
+	orderNumber INT,
+	shopId INT,
+	personId INT,
+	date_time DATETIME DEFAULT CURRENT_TIMESTAMP,
+	PRIMARY KEY(id)
+)
