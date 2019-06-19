@@ -67,5 +67,7 @@ CREATE TABLE orders(
 	shopId INT,
 	personId INT,
 	date_time DATETIME DEFAULT CURRENT_TIMESTAMP,
-	PRIMARY KEY(id)
+	PRIMARY KEY(id),
+	FOREIGN KEY(shopId) REFERENCES shop(id),
+	FOREIGN KEY(personId) REFERENCES people(id)
 )
