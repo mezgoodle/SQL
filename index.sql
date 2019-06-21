@@ -89,3 +89,6 @@ ORDER BY orders.orderNumber DESC;
 SELECT people.name, orders.orderNumber FROM people
 LEFT JOIN orders ON people.id = orders.personId
 ORDER BY people.name DESC;
+
+SELECT orders.date_time, people.name FROM orders
+RIGHT JOIN people ON orders.id = people.id;
