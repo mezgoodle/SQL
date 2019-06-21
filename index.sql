@@ -81,4 +81,5 @@ INSERT INTO `orders`(`orderNumber`, `shopId`, personId)
 		(0001, 3, 4),
 		(0001, 2, 3),
 		(0001, 1, 2);
-SELECT orders.orderNumber, people.name, people.email FROM people		
+SELECT orders.orderNumber, people.name, people.email FROM people	
+INNER JOIN orders ON people.id = orders.personId	
