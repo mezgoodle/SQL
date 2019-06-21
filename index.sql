@@ -85,3 +85,7 @@ SELECT shop.title, people.name, people.email FROM people
 INNER JOIN orders ON people.id = orders.personId	
 INNER JOIN shop ON shop.id = orders.shopId
 ORDER BY orders.orderNumber DESC;
+
+SELECT people.name, orders.orderNumber FROM people
+LEFT JOIN orders ON people.id = orders.personId
+ORDER BY people.name DESC;
