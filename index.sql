@@ -80,4 +80,4 @@ INSERT INTO `orders`(`orderNumber`, `shopId`, personId)
 		(0001, 4, 1),
 		(0001, 3, 4),
 		(0001, 2, 3),
-		(0001, 1, 2)
+		(0001, 1, 2);
