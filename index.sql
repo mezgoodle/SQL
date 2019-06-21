@@ -76,4 +76,8 @@ INSERT INTO `shop`(`title`, `price`)
 	VALUES ('Iphone', 300), ('TV', 300), ('Samsung', 300), ('ZTE', 300), ('Huawei', 300);
 INSERT INTO `orders`(`orderNumber`, `shopId`, personId)
 	VALUES 
-		(0001, 2, 4)	
+		(0001, 2, 4),
+		(0001, 4, 1),
+		(0001, 3, 4),
+		(0001, 2, 3),
+		(0001, 1, 2)
