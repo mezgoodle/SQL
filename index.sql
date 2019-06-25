@@ -93,4 +93,5 @@ ORDER BY people.name DESC;
 SELECT orders.date_time, people.name FROM orders
 RIGHT JOIN people ON orders.id = people.id;
 
-SELECT name AS `Імя`, birth AS `День народження` FROM people
+SELECT name AS `Імя`, birth AS `День народження` FROM people;
+SELECT CONCAT('Імя: ', name, '. День народження', birth)  FROM people;
