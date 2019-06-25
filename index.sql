@@ -95,5 +95,10 @@ RIGHT JOIN people ON orders.id = people.id;
 
 SELECT name AS `Імя`, birth AS `День народження` FROM people;
 SELECT CONCAT('Імя: ', name, '. День народження: ', birth) AS 'Інформація' FROM people;
-
 SELECT p.id, p.name, s.title, s.price FROM people AS p, shop AS s;
+
+SELECT COUNT(id) FROM shop;
+SELECT MIN(price) FROM shop;
+SELECT AVG(price) FROM shop;
+SELECT SUM(price) FROM shop;
+SELECT UCASE(title) FROM shop;
