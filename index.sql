@@ -21,6 +21,7 @@ INSERT INTO people (name, bio, birth)
 		('Bob2', 'ffff', '2020'),
 		('Bob34', 'ffff', '2020'),
 		('Bob3', 'ffff', '2020');
+
 UPDATE people SET `name` = 'Alexey', `pass` = `asdada` WHERE id = 5 AND bio = 'programmer';		
 CREATE TABLE test (
 	id NOT NULL,
