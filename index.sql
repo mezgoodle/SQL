@@ -61,7 +61,6 @@ CREATE TABLE shop(
 	price INT,
 	PRIMARY KEY(id)
 )
-
 CREATE TABLE orders(
 	id INT NOT NULL AUTO_INCREMENT,
 	orderNumber INT,
