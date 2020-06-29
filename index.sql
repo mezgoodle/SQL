@@ -71,7 +71,6 @@ CREATE TABLE orders(
 	FOREIGN KEY(shopId) REFERENCES shop(id),
 	FOREIGN KEY(personId) REFERENCES people(id)
 )
-
 INSERT INTO `shop`(`title`, `price`)
 	VALUES ('Iphone', 300), ('TV', 300), ('Samsung', 300), ('ZTE', 300), ('Huawei', 300);
 INSERT INTO `orders`(`orderNumber`, `shopId`, personId)
