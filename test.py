@@ -1,6 +1,5 @@
 # seed the pseudorandom number generator
-from random import seed
-from random import random
+from random import seedfrom random import random
 # seed random number generator
 seed(1)
 # generate some random numbers
