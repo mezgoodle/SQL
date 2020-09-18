@@ -102,4 +102,3 @@ SELECT AVG(price) FROM shop;
 SELECT SUM(price) FROM shop;
 SELECT UCASE(title) FROM shop;
 SELECT price, COUNT(price) FROM shop GROUP BY price HAVING COUNT(price) > 1;
-
