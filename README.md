@@ -4,7 +4,7 @@
 
 > this project is used for experiments
 
-*Sorry*, I really can`t imagine project title 😉.
+*Sorry*, I really can't imagine project title 😉.
 
 ## What is it
 
