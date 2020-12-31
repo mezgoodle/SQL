@@ -11,3 +11,5 @@ jobs:
       - uses: actions/checkout@v2
       - name: autoformatter
         uses: mezgoodle/auto-formatter@v0.1.1
+    env:
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}
