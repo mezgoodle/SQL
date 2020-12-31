@@ -10,6 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: autoformatter
-        uses: mezgoodle/auto-formatter@v0.1.1
+        uses: mezgoodle/auto-formatter@v0.1.2
     env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
