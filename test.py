@@ -1,5 +1,5 @@
 import turtle
-        # rfasdfsdf
+# rfasdfsdf
 import random
-                      n = random.random(       )
+n = random.random()
 print(n)
