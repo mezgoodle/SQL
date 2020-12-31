@@ -1,5 +1,6 @@
-import turtle
-# rfasdfsdf
-import random
-n = random.random()
+import 
+turtle
+#         rfasdfsdf
+                                            import random
+n = random.random(         )
 print(n)
