@@ -1,5 +1,5 @@
 from random import random
 import turtle
-# rfasx
+# rfasxghghgh
 n = random()
 print(n)
