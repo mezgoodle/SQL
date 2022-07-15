@@ -1,5 +1,5 @@
 from random import random
 import turtle
-# rfa
+# rfaсіфів
 n = random()
 print(n)
