@@ -1,1 +1,1 @@
-print('dasdasddsad')
+print('das')
