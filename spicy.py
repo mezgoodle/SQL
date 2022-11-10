@@ -1,1 +1,1 @@
-print('dasdaввфівdasd')
+print('dadasd')
