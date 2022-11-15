@@ -1,1 +1,1 @@
-print("вasa")
+print("вasagggg")
