@@ -1,1 +1,1 @@
-print("вasag")
+print("вasaghh")
