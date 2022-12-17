@@ -1,1 +1,1 @@
-print("вassdadaddhh")
+print("вasshh")
