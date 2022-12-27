@@ -1,2 +1,1 @@
 print("вasshh")
-dasd
